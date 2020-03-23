@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  border: 5px solid red;
+}
+
+.form {
+  display: flexbox;
+  font-family: "Blinker", sans-serif;
+  width: 500px;
+  padding: 0px 50px;
+  border: 5px solid green;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.check {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.card {
+  border-radius: 10px;
+  height: 100px;
+}
+
+.section {
+  padding: 50px 50px;
+}
+
+.image {
+  border: 5px solid blue;
+}
+
+.imagen {
+  max-width: 500px; /*ancho maximo de la imagen*/
+  background-color: #ebd0d3; /*color de fondo*/
+}
+
+.titulo {
+  font-size: 32px; /*tamaño de la fuente*/
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.subtitulo {
+  font-size: 32px; /*tamaño de la fuente*/
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.button {
+  background-color: #00d1b2;
+  height: 40px;
+  margin-left: 20px;
+}
